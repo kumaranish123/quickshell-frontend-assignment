@@ -29,8 +29,8 @@ const orderOptions = [
 
 const Navbar = ({ group, order, onGroupchange, onOrderChange }) => {
     const [expandMore, setExpandMore] = useState(false);
-    const [groupedBy, setGroupedBy] = useState(group);
-    const [orderedBy, setOrderedBy] = useState(order);
+    const [, setGroupedBy] = useState(group);
+    const [, setOrderedBy] = useState(order);
 
 
     const handleGroupChange = (e) => {
